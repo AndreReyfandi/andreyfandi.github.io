@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <section id="header">
+        <a href="#"><img src="img/art-logo.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shope</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="img/shoes/a-4.jpg" width="100%" id="MainImg" alt="">
+
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="img/shoes/a-4.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/shoes/a-4-1.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/shoes/a-4-2.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/shoes/a-4-3.jpg" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+        
+        <div class="single-pro-details">
+            <h6>Home / Shoes</h6>
+            <h4 style="font-size: 24px;">Adidas 4DFWD 2 Men's Running Shoes</h4>
+            <h2>$99</h2>
+            <select>
+                <option>Select Size</option>
+                <option>39</option>
+                <option>40</option>
+                <option>41</option>
+                <option>42</option>
+            </select>
+            <input type="number" value="1">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="normal">Add To Cart</button>
+            <h4>Product Details</h4>
+            <span>Adidas 4DFWD 2 redefines forward movement combining the unique and 
+                groundbreaking innovation of a 3D printed midsole with a new upper construction 
+                and Continental outsole for extra traction. With each step, the adidas 4DFWD 2 
+                midsole compresses forward, reducing braking force and converting impact energy 
+                into forward movement. The result is a seamless run with less impact on the pavement. 
+                A gripping rubber outsole provides traction on wet and dry surfaces to keep you focused 
+                in all conditions, and the adidas PRIMEKNIT+ upper wraps the foot in a new fit that 
+                maximizes movement. </span>
+        </div>
+        <!-- Button trigger modal -->
+  
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Understood</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Featured Product</h2>
+        <p>Popular Sneakers Collection from All Popular Brands</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/shoes/nike-1.jpg" alt="">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Nike Flex Experience Run 11 Next Nature</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$99</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/shoes/nb-2.jpeg" alt="">
+                <div class="des">
+                    <span>New Balance</span>
+                    <h5>Fresh Foam X 1080v12 Men's Shoes</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$153.27</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/shoes/a-2.jpg" alt="">
+                <div class="des">
+                    <span>Adidas</span>
+                    <h5>Stan Smith Shoes</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$113.34</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/shoes/nike-3.jpg" alt="">
+                <div class="des">
+                    <span>Nike</span>
+                    <h5>Air Jordan 6 Retro</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$285</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-plus cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div id="newstext">
+            <h4>Sign Up For Newsletter</h4>
+            <p>Get E-mail updates about our lastest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img src="img/art-logo.png" class="logo" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> Jl. Ki Hajar Dewantara Bekasi Regency, West Java</p>
+            <p><strong>Phone: </strong> +62813 8258 8976</p>
+            <p><strong>Hours: </strong> 10.00 AM - 19.00 PM | Monday - Saturday</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-instagram -f"></i>
+                    <i class="fab fa-youtube -f"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="">About us</a>
+            <a href="">Delivery Information</a>
+            <a href="">Terms & Conditions</a>
+            <a href="">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>Account</h4>
+            <a href="">Sign In</a>
+            <a href="">My Cart</a>
+            <a href="">My Wishlist</a>
+            <a href="">Help</a>
+        </div>
+
+        <!-- <div class="col install">
+            <h4>Install App</h4>
+            <p>From Google Play and App Store</p>
+            <div class="row">
+                <img src="img/install/gplay.jpg" style="width: 10%;" alt="">
+                <img src="img/install/appstore.jpg" style="width: 15%;" alt="">
+            </div>
+        </div> -->
+
+        <div class="copyright">
+            <p>© 2021, ART Shoe Store</p>
+        </div>
+    </footer>
+
+    <script>
+        var MainImg = document.getElementById('MainImg');
+        var smallImg = document.getElementsByClassName('small-img');
+
+        smallImg[0].onclick = function() {
+            MainImg.src = smallImg[0].src;
+        }
+        smallImg[1].onclick = function() {
+            MainImg.src = smallImg[1].src;
+        }
+        smallImg[2].onclick = function() {
+            MainImg.src = smallImg[2].src;
+        }
+        smallImg[3].onclick = function() {
+            MainImg.src = smallImg[3].src;
+        }
+    </script>
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
